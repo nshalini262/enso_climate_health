@@ -82,4 +82,4 @@ https://data.opencity.in/dataset/daily-temperature-70-years-data-for-major-india
 - Data from **2024** were excluded because weather observations were only available through June.
 - Administrative boundaries changed in **2007** when Ramanagara district was created from Bengaluru Rural district. Population estimates after 2007 reflect the revised district boundaries reported by the Government of Karnataka.
 - Bengaluru Urban and Bengaluru Rural are administrative districts. Each district contains both urban and rural populations, although the majority of the urban population resides within Bengaluru Urban district and the majority of the rural population resides within Bengaluru Rural district.
-- The 2006 annual report contains an apparent inconsistency in the published mid-year population estimates for Bengaluru Urban and Bengaluru Rural. These values should be verified and are not included in this dataset.
+- The **2006** annual report contains an apparent inconsistency in the published mid-year population estimates for Bengaluru Urban and Bengaluru Rural. These values should be verified and are not included in this dataset.
