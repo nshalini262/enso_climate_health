@@ -37,7 +37,7 @@ Daily weather observations were aggregated to monthly values before being merged
 | `tot_deaths_per_10k` | Numeric | Combined monthly mortality rate per 10,000 population across both districts. |
 | `avg_max_temp` | Numeric | Average monthly maximum temperature (°C), calculated from daily maximum temperature observations. |
 | `total_rain` | Numeric | Total monthly rainfall (mm), calculated by summing daily rainfall observations. |
-
+| `oni` | Numeric | Oceanic Nino Index. |
 ---
 
 ## Data Sources
@@ -70,9 +70,21 @@ https://data.opencity.in/dataset/daily-temperature-70-years-data-for-major-india
 - Daily rainfall observations were summed to produce monthly rainfall totals.
 - Data aggregation and cleaning were performed using the R script `data_cleaning.R`.
 
+### Weather Data
+
+**Source:** National Oceanic and Atmospheric Administration (NOAA)
+
+Accessed through Website:
+
+https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php
+
+**Processing:**
+- First month ONI value of each 3 month running mean was added to dataset. 
+- ONI - Oceanic Nino Index. Values > 0.5 represent El Nino conditions.
+
 ---
 
--  Weather and mortality datasets were merged by year and month to produce the final dataset.
+-  Weather and mortality datasets were merged by year and month to produce the final dataset. Upon merging, ONI column was added.
 
 ---
 
