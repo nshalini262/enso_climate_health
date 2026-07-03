@@ -70,7 +70,7 @@ https://data.opencity.in/dataset/daily-temperature-70-years-data-for-major-india
 - Daily rainfall observations were summed to produce monthly rainfall totals.
 - Data aggregation and cleaning were performed using the R script `data_cleaning.R`.
 
-### Weather Data
+### ENSO Data
 
 **Source:** National Oceanic and Atmospheric Administration (NOAA)
 
