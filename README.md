@@ -1,1 +1,5 @@
-# enso_climate_health
+# Large-Scale Climate Variability and Mortality: An Exploratory Study of ENSO in Bangalore, Karnataka
+
+## Abstract
+
+This exploratory study examines the relationship between large-scale climate variability, represented by El Niño-Southern Oscillation (ENSO), and mortality rates in Bangalore, Karnataka. Data from various sources was aggregated, cleaned and transformed to build a dataset consisting of monthly, local weather variables and Oceanic Niño Index values spanning from 2001 to 2023. Multiple linear regression models were developed and compared to assess the effects of ENSO phases, seasonality, temperature and rainfall on mortality. The results indicate a more consistent association between ENSO phase and mortality whereas variables like rainfall and seasonality are not significant predictors. The findings suggest that large scale climate variability may have a greater impact on mortality when compared to local weather conditions. This pilot study demonstrates a framework integrating climate and public health data and may be expanded to larger datasets, additional environmental variables and geographic locations.
